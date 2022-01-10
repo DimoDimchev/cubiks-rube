@@ -22,7 +22,7 @@ export default function App() {
 			</div>
 
 			<Routes>
-				<Route path="/" element={<HomePage />} />
+				<Route path="cubiks-rube" element={<HomePage />} />
 				<Route path="about" element={<AboutPage />} />
 			</Routes>
 		</div>
