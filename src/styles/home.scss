@@ -46,3 +46,19 @@
 		}
 	}
 }
+
+@media only screen and (max-device-width: 480px) {
+	.carousel {
+		text-align: center;
+	}
+
+	.inner {
+		flex-direction: column !important;
+		justify-content: flex-start !important;
+		align-items: center !important;
+
+		.element {
+			width: 90% !important;
+		}
+	}
+}
