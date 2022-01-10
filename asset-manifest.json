@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cubiks-rube/static/css/main.3033dbfd.css",
-    "main.js": "/cubiks-rube/static/js/main.fd06ffe5.js",
+    "main.js": "/cubiks-rube/static/js/main.64049c8a.js",
     "static/js/787.d8331c04.chunk.js": "/cubiks-rube/static/js/787.d8331c04.chunk.js",
     "index.html": "/cubiks-rube/index.html",
     "main.3033dbfd.css.map": "/cubiks-rube/static/css/main.3033dbfd.css.map",
-    "main.fd06ffe5.js.map": "/cubiks-rube/static/js/main.fd06ffe5.js.map",
+    "main.64049c8a.js.map": "/cubiks-rube/static/js/main.64049c8a.js.map",
     "787.d8331c04.chunk.js.map": "/cubiks-rube/static/js/787.d8331c04.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3033dbfd.css",
-    "static/js/main.fd06ffe5.js"
+    "static/js/main.64049c8a.js"
   ]
 }
