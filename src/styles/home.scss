@@ -1,0 +1,48 @@
+.mainBlock {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+	padding-top: 4rem;
+
+	.intro {
+		text-align: center;
+	}
+
+	.carousel {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		background-color: rgb(165, 120, 236);
+		width: 100%;
+
+		.inner {
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			align-items: flex-start;
+			padding-bottom: 2%;
+
+			.element {
+				flex-basis: 25%;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				text-align: center;
+
+				width: 30%;
+
+				p:first-child {
+					text-decoration: underline;
+					font-weight: 600;
+				}
+			}
+		}
+	}
+}

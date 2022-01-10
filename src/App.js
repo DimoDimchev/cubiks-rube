@@ -10,6 +10,12 @@ export default function App() {
 				<Link className="link" to="/">
 					Home
 				</Link>
+				<Link className="link" to="/timing">
+					Timing
+				</Link>
+				<Link className="link" to="/scrambling">
+					Scrambling
+				</Link>
 				<Link className="link" to="/about">
 					About
 				</Link>
