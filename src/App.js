@@ -7,7 +7,7 @@ export default function App() {
 	return (
 		<div className="App">
 			<div className="nav">
-				<Link className="link" to="/">
+				<Link className="link" to="/cubiks-rube">
 					Home
 				</Link>
 				<Link className="link" to="/timing">
