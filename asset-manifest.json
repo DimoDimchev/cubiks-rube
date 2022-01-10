@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/cubiks-rube/static/css/main.073c9b0a.css",
-    "main.js": "/cubiks-rube/static/js/main.48a7b364.js",
+    "main.css": "/cubiks-rube/static/css/main.3033dbfd.css",
+    "main.js": "/cubiks-rube/static/js/main.1c7f7530.js",
     "static/js/787.d8331c04.chunk.js": "/cubiks-rube/static/js/787.d8331c04.chunk.js",
-    "static/media/logo.svg": "/cubiks-rube/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/cubiks-rube/index.html",
-    "main.073c9b0a.css.map": "/cubiks-rube/static/css/main.073c9b0a.css.map",
-    "main.48a7b364.js.map": "/cubiks-rube/static/js/main.48a7b364.js.map",
+    "main.3033dbfd.css.map": "/cubiks-rube/static/css/main.3033dbfd.css.map",
+    "main.1c7f7530.js.map": "/cubiks-rube/static/js/main.1c7f7530.js.map",
     "787.d8331c04.chunk.js.map": "/cubiks-rube/static/js/787.d8331c04.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.48a7b364.js"
+    "static/css/main.3033dbfd.css",
+    "static/js/main.1c7f7530.js"
   ]
 }
