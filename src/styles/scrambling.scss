@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Roboto+Mono:wght@400;600&display=swap");
+
+.scrambleBlock {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	padding-top: 30vh;
+
+	.scramble {
+		font-family: "Roboto Mono", monospace;
+		font-size: 1.5em;
+	}
+
+	button {
+		background-color: white;
+		border: 1px solid black;
+		border-radius: 10px;
+
+		// width: 10%;
+		// height: 10%;
+
+		margin-top: 2rem;
+
+		transition: 0.3s;
+
+		font-family: "Roboto Mono", monospace;
+		font-weight: 600;
+		font-size: 1.2em;
+
+		&:hover {
+			background-color: rgb(175, 173, 173);
+		}
+	}
+}

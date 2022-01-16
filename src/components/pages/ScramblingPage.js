@@ -1,5 +1,6 @@
 import { generateScramble } from "../../api";
 import { useState, useEffect } from "react";
+import "../../styles/scrambling.scss";
 
 export default function ScramblingPage() {
 	const [scramble, setScramble] = useState("");
@@ -10,9 +11,10 @@ export default function ScramblingPage() {
 	}, []);
 
 	return (
-		<div>
-			<p>{scramble}</p>
+		<div className="scrambleBlock">
+			<p className="scramble">{scramble}</p>
 			<button
+				className="scrambleButton"
 				onClick={() => {
 					setScramble(generateScramble);
 				}}
