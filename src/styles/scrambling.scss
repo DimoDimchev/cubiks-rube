@@ -1,15 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Roboto+Mono:wght@400;600&display=swap");
 
-.stopwatch {
+.scrambleBlock {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 40rem;
 
-	.numbers {
+	padding-top: 30vh;
+
+	.scramble {
 		font-family: "Roboto Mono", monospace;
-		font-size: 5em;
+		font-size: 1.5em;
 	}
 
 	button {
@@ -30,19 +31,6 @@
 
 		&:hover {
 			background-color: rgb(175, 173, 173);
-		}
-	}
-}
-
-.lastTime {
-	font-family: "Roboto Mono", monospace;
-	font-size: 1.5em;
-}
-
-@media only screen and (max-device-width: 480px) {
-	.stopwatch {
-		.numbers {
-			font-size: 3em;
 		}
 	}
 }
