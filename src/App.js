@@ -15,22 +15,25 @@ export default function App() {
 				<Link className="link" to="/cubiks-rube">
 					Home
 				</Link>
-				<Link className="link" to="/timing">
+				<Link className="link" to="/cubiks-rube/timing">
 					Timing
 				</Link>
-				<Link className="link" to="/scrambling">
+				<Link className="link" to="/cubiks-rube/scrambling">
 					Scrambling
 				</Link>
-				<Link className="link" to="/about">
+				<Link className="link" to="/cubiks-rube/about">
 					About
 				</Link>
 			</div>
 
 			<Routes>
 				<Route path="cubiks-rube" element={<HomePage />} />
-				<Route path="about" element={<AboutPage />} />
-				<Route path="timing" element={<TimingPage />} />
-				<Route path="scrambling" element={<ScramblingPage />} />
+				<Route path="cubiks-rube/about" element={<AboutPage />} />
+				<Route path="cubiks-rube/timing" element={<TimingPage />} />
+				<Route
+					path="cubiks-rube/scrambling"
+					element={<ScramblingPage />}
+				/>
 			</Routes>
 		</div>
 	);
