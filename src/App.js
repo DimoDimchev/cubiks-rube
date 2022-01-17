@@ -12,28 +12,25 @@ export default function App() {
 	return (
 		<div className="App">
 			<div className="nav">
-				<Link className="link" to="/cubiks-rube">
+				<Link className="link" to="/">
 					Home
 				</Link>
-				<Link className="link" to="/cubiks-rube/timing">
+				<Link className="link" to="/timing">
 					Timing
 				</Link>
-				<Link className="link" to="/cubiks-rube/scrambling">
+				<Link className="link" to="/scrambling">
 					Scrambling
 				</Link>
-				<Link className="link" to="/cubiks-rube/about">
+				<Link className="link" to="/about">
 					About
 				</Link>
 			</div>
 
 			<Routes>
-				<Route path="cubiks-rube" element={<HomePage />} />
-				<Route path="cubiks-rube/about" element={<AboutPage />} />
-				<Route path="cubiks-rube/timing" element={<TimingPage />} />
-				<Route
-					path="cubiks-rube/scrambling"
-					element={<ScramblingPage />}
-				/>
+				<Route exact path="/" element={<HomePage />} />
+				<Route path="about" element={<AboutPage />} />
+				<Route path="timing" element={<TimingPage />} />
+				<Route path="scrambling" element={<ScramblingPage />} />
 			</Routes>
 		</div>
 	);
